@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100;300;400&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Defina um valor apropriado para font-weight */
+    background-color: #00520e;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #1f792e;
+    font-weight: 400;
+}
+
+label {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+fieldset {
+    width: 100%; /* Ajuste conforme necessário */
+    background-color: rgba(31, 201, 45, 0.8);
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+legend {
+    font-size: small;
+    padding: 4px;
+}
+
+form {
+    margin-top: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+.tipo_pag {
+    display: flex;
+    flex-direction: row;
+}
+
+.check_veiculo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/* Adicione a classe .botao a elementos HTML conforme necessário */
+.botao {
+    padding: 8px 32px;
+    border-radius: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+/* Adicione a classe .img-fluid a elementos de imagem conforme necessário */
+.img-fluid {
+    background-color: #ffffff;
+    color: #14dd36;
+}
